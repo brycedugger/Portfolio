@@ -9758,7 +9758,8 @@ a.text-dark:hover, a.text-dark:focus {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: #F7882F;
+  background-color: #F7C331;
+
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
@@ -9852,4 +9853,14 @@ form .row:first-child .floating-label-form-group {
 
 .copyright {
   background-color: #1a252f;
+}
+
+#colorCitrus {
+  background-color: #F7C331 !important;
+}
+
+a#colorCitrus:hover, a#colorCitrus:focus,
+button#colorCitrus:hover,
+button#colorCitrus:focus {
+  background-color: #F7882F !important;
 }
